@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <title>Search Destination</title>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="container nav-container">
+        <!-- The checkbox will be hidden, it's just for controlling the menu visibility -->
+        <input type="checkbox" class="checkbox" id="menuCheckbox" />
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger-lines" id="hamburger">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+          <img src="images/logo.png" alt="Your Logo" />
+        </div>
+
+        <!-- Menu Items -->
+        <div class="menu-items" id="menu">
+          <ul>
+            <li><a href="travel-recommendation-website.html">Home</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+            <li><a href="searchDestination.html">Search Destination</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="frame">
+    <a href="#" class="btn">
+      <i class="fab fa-facebook-f" style="color: #3b5998"></i>
+    </a>
+    <a href="#" class="btn">
+      <i class="fab fa-twitter" style="color: #00acee"></i>
+    </a>
+    <a href="#" class="btn">
+      <i class="fab fa-instagram" style="color: #ea4c89"></i>
+    </a>
+    <a href="#" class="btn">
+      <i class="fab fa-linkedin-in" style="color: #0e76a8"></i>
+    </a>
+  </div>
+
+  <h1>Search Destination</h1>
+    <input
+        id="inputDestination"
+        type="text"
+        placeholder="Enter a Destination"
+      />
+      <button id="search">Search</button>
+    </ul>
+  
+
+  <div id="searchResult"></div>
+  <div id="cityTime"></div>
+<script src="script.js"></script>
+</body>
+</html>
+    
+        
